@@ -205,9 +205,9 @@ para mais números de processo, busque no diário oficial de Alagoas: https://ww
 para mais números de processo, busque no diário de justiça do estado do Ceará: https://www.jusbrasil.com.br/diarios/DJCE/
 
 Alguns pontos que serão analisados:
-	+ Organização do código: se o código está limpo e organizado, de acordo com a formatação adequada;
-	+ Testes;
-	+ Tratamento de erros;
-	+ Facilidade ao rodar o projeto;
-	+ Escalabilidade: o quão fácil é escalar os crawlers;
-	+ Performance: aqui avaliamos o tempo para coletar todo o processo jurídico.
+ + Organização do código: se o código está limpo e organizado, de acordo com a formatação adequada;
+ + Testes;
+ + Tratamento de erros;
+ + Facilidade ao rodar o projeto;
+ + Escalabilidade: o quão fácil é escalar os crawlers;
+ + Performance: aqui avaliamos o tempo para coletar todo o processo jurídico.
