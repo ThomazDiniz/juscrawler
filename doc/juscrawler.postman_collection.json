@@ -1,0 +1,738 @@
+{
+	"info": {
+		"_postman_id": "865b58d7-c5a0-4454-8c41-1d1bd24ac3af",
+		"name": "juscrawler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6106625"
+	},
+	"item": [
+		{
+			"name": "request da api de processo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"processo\": \"0710802-55.2018.8.02.0001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TJAL1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "pt-BR,pt;q=0.9,en;q=0.8",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=473FA8EDF8C302054B180D44DFFB469A.cpopg4",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://www2.tjal.jus.br/cpopg/open.do",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1",
+						"disabled": true
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://www2.tjal.jus.br/cpopg/search.do;jsessionid=473FA8EDF8C302054B180D44DFFB469A.cpopg4?cbPesquisa=NUMPROC&dadosConsulta.valorConsultaNuUnificado=0710802-55.2018.8.02.0001&dadosConsulta.tipoNuProcesso=UNIFICADO",
+					"protocol": "https",
+					"host": [
+						"www2",
+						"tjal",
+						"jus",
+						"br"
+					],
+					"path": [
+						"cpopg",
+						"search.do;jsessionid=473FA8EDF8C302054B180D44DFFB469A.cpopg4"
+					],
+					"query": [
+						{
+							"key": "conversationId",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "cbPesquisa",
+							"value": "NUMPROC"
+						},
+						{
+							"key": "numeroDigitoAnoUnificado",
+							"value": "0710802-55.2018",
+							"disabled": true
+						},
+						{
+							"key": "foroNumeroUnificado",
+							"value": "0001",
+							"disabled": true
+						},
+						{
+							"key": "dadosConsulta.valorConsultaNuUnificado",
+							"value": "0710802-55.2018.8.02.0001"
+						},
+						{
+							"key": "dadosConsulta.valorConsultaNuUnificado",
+							"value": "UNIFICADO",
+							"disabled": true
+						},
+						{
+							"key": "dadosConsulta.valorConsulta",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "dadosConsulta.tipoNuProcesso",
+							"value": "UNIFICADO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TJAL2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "pt-BR,pt;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=2BD64E5AABCD3A1E180045CB61938EEA.cposg4"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www2.tjal.jus.br/cposg5/search.do;jsessionid=2BD64E5AABCD3A1E180045CB61938EEA.cposg4?conversationId=&paginaConsulta=0&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=0710802-55.2018&foroNumeroUnificado=0001&dePesquisaNuUnificado=0710802-55.2018.8.02.0001&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://www2.tjal.jus.br/cposg5/show.do?processo.codigo=P00006BXP0000",
+					"protocol": "https",
+					"host": [
+						"www2",
+						"tjal",
+						"jus",
+						"br"
+					],
+					"path": [
+						"cposg5",
+						"show.do"
+					],
+					"query": [
+						{
+							"key": "processo.codigo",
+							"value": "P00006BXP0000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TJAL2 PEGAR CODIGO",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "pt-BR,pt;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=2BD64E5AABCD3A1E180045CB61938EEA.cposg4",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://www2.tjal.jus.br/cposg5/open.do",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1",
+						"disabled": true
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://www2.tjal.jus.br/cposg5/search.do?cbPesquisa=NUMPROC&dePesquisaNuUnificado=0710802-55.2018.8.02.0001&tipoNuProcesso=UNIFICADO",
+					"protocol": "https",
+					"host": [
+						"www2",
+						"tjal",
+						"jus",
+						"br"
+					],
+					"path": [
+						"cposg5",
+						"search.do"
+					],
+					"query": [
+						{
+							"key": "conversationId",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "paginaConsulta",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "cbPesquisa",
+							"value": "NUMPROC"
+						},
+						{
+							"key": "numeroDigitoAnoUnificado",
+							"value": "0710802-55.2018",
+							"disabled": true
+						},
+						{
+							"key": "foroNumeroUnificado",
+							"value": "0001",
+							"disabled": true
+						},
+						{
+							"key": "dePesquisaNuUnificado",
+							"value": "0710802-55.2018.8.02.0001"
+						},
+						{
+							"key": "dePesquisaNuUnificado",
+							"value": "UNIFICADO",
+							"disabled": true
+						},
+						{
+							"key": "dePesquisa",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "tipoNuProcesso",
+							"value": "UNIFICADO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TJCE1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "pt-BR,pt;q=0.9,en;q=0.8",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=1A703148D2D2F9545C8EAC07C929B2A4.cpopg2; NSC_WJQ_TBKDBT=ffffffffc3a014d845525d5f4f58455e445a4a4229c4; NSC_WJQ_FTBK=ffffffffc3a014d845525d5f4f58455e445a4a4229a0",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://esaj.tjce.jus.br/cpopg/open.do",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1",
+						"disabled": true
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://esaj.tjce.jus.br/cpopg/search.do;jsessionid=1A703148D2D2F9545C8EAC07C929B2A4.cpopg2?cbPesquisa=NUMPROC&dadosConsulta.valorConsultaNuUnificado=0070337-91.2008.8.06.0001&dadosConsulta.tipoNuProcesso=UNIFICADO",
+					"protocol": "https",
+					"host": [
+						"esaj",
+						"tjce",
+						"jus",
+						"br"
+					],
+					"path": [
+						"cpopg",
+						"search.do;jsessionid=1A703148D2D2F9545C8EAC07C929B2A4.cpopg2"
+					],
+					"query": [
+						{
+							"key": "conversationId",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "cbPesquisa",
+							"value": "NUMPROC"
+						},
+						{
+							"key": "numeroDigitoAnoUnificado",
+							"value": "0070337-91.2008",
+							"disabled": true
+						},
+						{
+							"key": "foroNumeroUnificado",
+							"value": "0001",
+							"disabled": true
+						},
+						{
+							"key": "dadosConsulta.valorConsultaNuUnificado",
+							"value": "0070337-91.2008.8.06.0001"
+						},
+						{
+							"key": "dadosConsulta.valorConsultaNuUnificado",
+							"value": "UNIFICADO",
+							"disabled": true
+						},
+						{
+							"key": "dadosConsulta.valorConsulta",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "dadosConsulta.tipoNuProcesso",
+							"value": "UNIFICADO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TJCE2 PEGAR CODIGO",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+						"disabled": true
+					},
+					{
+						"key": "Accept-Language",
+						"value": "pt-BR,pt;q=0.9,en;q=0.8",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=FA8D91927D59E54450453A82132366EF.cposg7; NSC_WJQ_TBKDBT=ffffffffc3a014d845525d5f4f58455e445a4a4229c4; NSC_WJQ_FTBK=ffffffffc3a014d845525d5f4f58455e445a4a4229a0",
+						"disabled": true
+					},
+					{
+						"key": "Referer",
+						"value": "https://esaj.tjce.jus.br/cposg5/open.do",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin",
+						"disabled": true
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1",
+						"disabled": true
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://esaj.tjce.jus.br/cposg5/search.do;jsessionid=FA8D91927D59E54450453A82132366EF.cposg7?cbPesquisa=NUMPROC&dePesquisaNuUnificado=0070337-91.2008.8.06.0001&tipoNuProcesso=UNIFICADO",
+					"protocol": "https",
+					"host": [
+						"esaj",
+						"tjce",
+						"jus",
+						"br"
+					],
+					"path": [
+						"cposg5",
+						"search.do;jsessionid=FA8D91927D59E54450453A82132366EF.cposg7"
+					],
+					"query": [
+						{
+							"key": "conversationId",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "paginaConsulta",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "cbPesquisa",
+							"value": "NUMPROC"
+						},
+						{
+							"key": "numeroDigitoAnoUnificado",
+							"value": "0070337-91.2008",
+							"disabled": true
+						},
+						{
+							"key": "foroNumeroUnificado",
+							"value": "0001",
+							"disabled": true
+						},
+						{
+							"key": "dePesquisaNuUnificado",
+							"value": "0070337-91.2008.8.06.0001"
+						},
+						{
+							"key": "dePesquisaNuUnificado",
+							"value": "UNIFICADO",
+							"disabled": true
+						},
+						{
+							"key": "dePesquisa",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "tipoNuProcesso",
+							"value": "UNIFICADO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TJCE2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "pt-BR,pt;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=FA8D91927D59E54450453A82132366EF.cposg7; NSC_WJQ_TBKDBT=ffffffffc3a014d845525d5f4f58455e445a4a4229c4; NSC_WJQ_FTBK=ffffffffc3a014d845525d5f4f58455e445a4a4229a0"
+					},
+					{
+						"key": "Referer",
+						"value": "https://esaj.tjce.jus.br/cposg5/search.do;jsessionid=FA8D91927D59E54450453A82132366EF.cposg7?conversationId=&paginaConsulta=0&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=0070337-91.2008&foroNumeroUnificado=0001&dePesquisaNuUnificado=0070337-91.2008.8.06.0001&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://esaj.tjce.jus.br/cposg5/show.do?processo.codigo=P000020AM0000",
+					"protocol": "https",
+					"host": [
+						"esaj",
+						"tjce",
+						"jus",
+						"br"
+					],
+					"path": [
+						"cposg5",
+						"show.do"
+					],
+					"query": [
+						{
+							"key": "processo.codigo",
+							"value": "P000020AM0000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
