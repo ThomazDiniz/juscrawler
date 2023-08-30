@@ -130,7 +130,7 @@ Nesta seção vou pontuar algumas coisas que acredito que poderiam ser melhores 
  + Utilizei exceptions o que pode impactar o desempenho do projeto (Não lembro de cabeça, mas recordo de ler sobre o impacto de exceções em java, acredito que o mesmo impacto ocorra em python), mas utilizar exceptions aumentou a velocidade que codei o projeto, então foi uma decisão pensada.
  + A documentação além de estar fraca está bem mal estruturada e misturada com minhas experiências no desenvolvimento deste projeto. Foi uma decisão pensada também, uma vez que a intenção desse projeto é didático.
  + O parsing das partes é basicamente a parte + os advogados em uma string só separado por vírgula. Idealmente eu separaria autor/reu de advogado de autor/reu.
- + Não sei se essa informação é importante, mas para fazer esse crawler trabalhei no domingo à noite, na segunda à noite e da noite de terça até a madrugada de terça-feira. Ou seja, foram basicamente 3 noites para relembrar python, aprender scrapy, flask e beautifulsoup. Não pude trabalhar neste projeto antes, pois tive de acompanhar o deploy de algo importante no meu emprego atual.
+ + Não sei se essa informação é importante, mas para fazer esse crawler trabalhei no domingo à noite, na segunda à noite e da noite de terça até a madrugada do dia seguinte. Ou seja, foram basicamente 3 noites para relembrar python, aprender scrapy, flask e beautifulsoup. Não pude trabalhar neste projeto antes, pois tive de acompanhar o deploy de algo importante no meu emprego atual.
 
 ### Agradecimentos
 Valeu pela oportunidade, pessoal! Qualquer coisa estou à disposição! =)
