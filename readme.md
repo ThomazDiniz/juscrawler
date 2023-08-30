@@ -152,10 +152,15 @@ Crawlers / Tribunais onde os dados serão coletados
 Tanto o TJAL como o TJCE tem uma interface web para a consulta de processos. O endereço para essas consultas são:
 
 TJAL
+
 1º grau - https://www2.tjal.jus.br/cpopg/open.do
+
 2º grau - https://www2.tjal.jus.br/cposg5/open.do
+
 TJCE
+
 1º grau - https://esaj.tjce.jus.br/cpopg/open.do
+
 2º grau - https://esaj.tjce.jus.br/cposg5/open.do
 
 Dados a serem coletados:
@@ -172,7 +177,9 @@ Dados a serem coletados:
 	lista das movimentações (data, movimento, desc)
 
 Exemplos de processos
+
 1º grau - https://www2.tjal.jus.br/cpopg/open.do
+
 2º grau - https://www2.tjal.jus.br/cposg5/open.do
 
 
@@ -186,6 +193,7 @@ Exemplos de processos
 para mais números de processo, busque no diário oficial de Alagoas: https://www.jusbrasil.com.br/diarios/DJAL/
 
 1º grau - https://esaj.tjce.jus.br/cpopg/open.do
+
 2º grau - https://esaj.tjce.jus.br/cposg5/open.do
 
 	0070337-91.2008.8.06.0001 - TJCE
